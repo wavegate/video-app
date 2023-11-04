@@ -8,10 +8,10 @@ function App() {
       <Video></Video>
       <Video></Video>
       <ReactFullpage
-        //fullpage options
+        credits={{ enabled: false }}
         licenseKey={"gplv3-license"}
         scrollingSpeed={1000} /* Options here */
-        render={({ state, fullpageApi }) => {
+        render={() => {
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
