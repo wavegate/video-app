@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     if (ref.current) {
       const measureSize = () => {
-        const box = ref.current.getBoundingClientRect();
+        const box = ref.current!.getBoundingClientRect();
         setSize({ width: box.width, height: box.height });
       };
 
