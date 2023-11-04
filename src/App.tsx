@@ -37,7 +37,7 @@ function App() {
             />
           </div>
         </div>
-        <div className={`h-[60dvh] flex justify-center gap-16 items-center`}>
+        <div className={`h-[8dvh] flex justify-center gap-16 items-center`}>
           <Home color={`#FFFFFF`} size={40} />
           <Search color={`#FFFFFF`} size={40} />
           <CircleDot color={`#FFFFFF`} size={40} />
